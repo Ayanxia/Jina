@@ -6,45 +6,29 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-div{
-	margin:0;
-	 padding:0;
-}
 a {
 	color: #00F9A5;
 	text-decoration: none;
 }
 
 h2{ 
-	font-weight:normal;
-    font-size:100%;
     font-size: 3.0em;
 }
 h3{  
-	 font-weight:normal;
-	 font-size:100%;
 	text-align:center;
 }
 h4{  
-      font-weight:normal;
-      font-size:100%;
 	font-size: 15px;
 }
 h5{
-	 font-weight:normal; 
-	 font-size:100%;
 	text-align:center;
 }
 h6{ 
-	 font-weight:normal;
-	 font-size:100%;
 	text-align: left;
 	margin-top: -30px;
 }
 
 p { 
-	 font-weight:normal;
-	  font-size:100%;
 	margin-top: -5px;
 	font-size: 1.0em;
 }
@@ -52,19 +36,24 @@ p {
 	color: black;
 	background-color: #00F9A5;
 	border-color: #00F9A5;
-}.jumbotron{
-  height: 300px;
-
+}
+.jumbotron{
+  padding: 80px 50px;
+  margin-bottom: 50px;
+  margin-top:-30px;
+ 
   color: white;
-  
   background: url(../images/header.jpg);
+ 
   background-position: center;
-  background-repeat: no-repeat;
-  margin:0;
+  background-size: cover;
 }
 .jumbotron-content {
-  width: 1100px;
-  margin: 30px;
+  width: 90%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .page-header{
 	color: black;
@@ -72,11 +61,15 @@ p {
 	border: none;
 }
 .row{
+	width: 90%;
 	border-bottom: 1px solid #E0E0E0;
+	margin-left: auto;
+	margin-right: auto;
 }
 .thumbnail{
 	border: 0!important;
 }
 .page-header h6{
-	margin-left: 30px;
+	width: 90%;
+	margin-left: 60px;
 }
